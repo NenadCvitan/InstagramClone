@@ -1,0 +1,120 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family: "Dancing Script";
+}
+.instaLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoImage{
+    height: 30%;
+    width: 30%;
+}
+
+
+.containerDivTitle{
+    text-align: center;
+    padding: 25px;
+}
+.userInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inputName{
+    width: 30%;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.inputPassword{
+    width: 30%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.loginButton{
+    width: 30%;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: #0095F6; /* Hintergrundfarbe */
+    color: white; /* Textfarbe */
+    border: none; /* Kein Rand */
+    padding: 5px 20px; /* Innenabstand */
+    border-radius: 5px; /* Abgerundete Ecken */
+    font-size: 16px; /* Schriftgröße */
+    cursor: pointer; /* Zeiger beim Hover */
+    transition: background-color 0.3s; /* Übergangseffekt */
+}
+
+.trennTextContainer{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.textContainerDiv{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    text-align: center;
+    font-size: small;
+}
+
+@media screen and  (max-width: 600px) {
+    .inputName,.inputPassword,.loginButton{
+        width: 60%;
+    }
+    .instaLogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+     }
+     .logoImage{
+        width: 50%;
+     }
+
+}
+@media screen and (min-width: 950px) {
+    .inputName,.inputPassword,.loginButton{
+        width: 15%;
+    }
+    
+    
+}
+
+@media screen and (min-width: 500px) {
+    .inputName,.inputPassword,.loginButton{
+        width: 27%;
+    }
+    .logoImage{
+        width: 25%;
+        height: 25%;
+    }
+  }
+
+@media screen and (min-width: 1105px) {
+     .inputName,.inputPassword,.loginButton{
+        width: 15%;
+     }
+     .textContainerDiv{
+     margin: 0 auto;
+     width: 20%;
+     font-size: small;
+     }
+     .instaLogo{
+        display: flex;
+        justify-content: center;
+     }
+     .logoImage{
+        width: 15%;
+        height: 15%;
+     }
+     
+}

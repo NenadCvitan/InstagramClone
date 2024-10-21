@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="registerStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+</head>
+<body>
+
+    <header class="containerDivTitle">
+      <h1 class="title">Instagram</h1>
+    </header>
+
+   
+    <main class="userInput" id="userInput">
+
+        <p style="font-size: larger; margin: 0 40px; margin-bottom: 20px;">Registrier dich, um die Fotos und
+            Videos deiner Freunde zu sehen.
+        </p>
+
+     <input type="text" class="inputNumberOrName" id="inputNumberOrName"
+     placeholder="Handynummer oder E-Mail-Adresse" required>
+
+     <input type="password" class="inputNewPassword" id="inputNewPassword"
+     placeholder="Passwort" required>
+
+     <input type="text" class="inputFullName" id="inputFullName"
+     placeholder="Vollständiger Name" required>
+
+     <input type="text" class="inputNewUsername" id="inputNewUsername"
+     placeholder="Benutzername" required>
+
+     
+    <p class="firstText">Personen, die unseren Dienst nutzen, haben 
+        möglicherweise deine Kontaktinformationen auf 
+        Instagram hochgeladen. Mehr dazu</p>
+
+   <p>
+    Indem du dich registrierst, stimmst du unseren 
+    Nutzungsbedingungen zu. In unserer 
+    Datenschutzrichtlinie erfährst du, wie wir deine 
+    Daten erheben, verwenden und teilen. Unsere 
+    Cookie-Richtlinie erklärt, wie wir Cookies und 
+    ähnliche Technologien verwenden.
+   </p>
+
+   <input type="button" class="loginButton" id="loginButton" value="Weiter" onclick="register()">
+
+    <p>
+        Du kannst in deinem Land auch dann Melden von Inhalten, die
+         deiner Ansicht nach im Sinne des 
+         Netzwerkdurchsetzungsgesetzes (NetzDG) rechtswidrig sind, 
+         wenn du nicht eingeloggt bist. 
+   
+     </p>
+
+    <p>
+        Du hast ein Konto? Melde dich an.
+    </p>
+
+    <div class="instaLogo">
+     <img src="/loginpage/image.png" class="logoImage" alt="logoImage">
+    </div>
+   
+
+    </main>
+
+    <script src="register.js"></script>
+    
+</body>
+</html>

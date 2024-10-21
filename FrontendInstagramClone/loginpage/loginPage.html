@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="loginStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header für den Titel -->
+    <header class="containerDivTitle" id="containerDivTitle">
+        <h1 class="title">Instagram</h1>
+    </header>
+    
+    <!-- Hauptbereich für Benutzer-Input -->
+    <main class="userInput" id="userInput">
+        <input type="text" class="inputName" id="inputName" 
+               placeholder="Telefonnummer, Benutzername oder E-Mail-Adresse" required>
+        <input type="password" class="inputPassword" id="inputPassword" 
+               placeholder="Passwort" required>
+        
+        <input type="button" class="loginButton" id="loginButton" value="Anmelden" onclick="func()">
+    </main>
+
+    <!-- Trennlinie mit Text -->
+    <div class="trennTextContainer">
+        <p class="trennText">--------------ODER--------------</p>
+    </div>
+
+    <!--Container für Text-->
+    <div class="textContainerDiv">
+       
+        <div class="labelPasswortVergessen" >
+        <p class>Passwort vergessen?</p>
+        </div>
+       
+        <div class="policy">
+         <p>Du kannst in deinem Land auch dann Melden von Inhalten, die
+            deiner Ansicht nach im Sinne des
+            Netzwerkdurchsetzungsgesetzes (NetzDG) rechstwidrig sind,
+            wenn du nicht eingeloggt bist.
+         </p>
+        </div>
+
+        <div class="keinKonto">
+            <p>Du hast kein Konto? Registrieren</p>
+        </div>
+        <div class="topics">
+          <p>Meta  Info  Blog  Jobs Hilfe  API  Datenrichtlinie
+            Nutzungsbedingungen und Impressum Standorte
+            Instagram Lite  Threads
+            Hochladen von Kontakten und Nicht-Nutzer  Meta Verified
+            
+               Deutsch © 2024 Instagram from Meta
+          </p>
+        </div>
+   
+    </div>
+
+    <!--Container für Gif-->
+    <div class="instaLogo">
+        <img src="image.png" class="logoImage" alt="instagramLogoImage">
+    </div>
+
+    <script src="loginScript.js"></script>
+
+
+
+
+
+
+</body>
+</html>
