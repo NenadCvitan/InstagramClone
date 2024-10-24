@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Raum mit Lautsprechern</title>
+    <style>body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#ui {
+  z-index: 10;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+</style>
+</head>
+<body>
+    <div id="ui">
+        <label>Länge (m): <input type="number" id="length" value="10"></label><br>
+        <label>Breite (m): <input type="number" id="width" value="10"></label><br>
+        <button id="generate">Raum generieren</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.125.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.125.2/examples/js/controls/OrbitControls.js"></script>
+    <script src="/index.dd8ea0dd.js" defer=""></script>
+</body>
+</html>
